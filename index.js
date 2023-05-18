@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const conn = require('./db/conn.js')
 const Usuario = require('./models/User.js')
+const Socio = require('./models/Socio.js')
+const Filme = require('./models/Filme.js')
 const exphbs = require('express-handlebars')
 
 
